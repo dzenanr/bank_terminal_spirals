@@ -1,5 +1,7 @@
 
-##bank Terminal with Polymer
+##Bank Terminal with Polymer
+
+by Ivo Balbaert
 
 **Categories**: education, Polymer, HTML5.
 
