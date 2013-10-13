@@ -1,0 +1,456 @@
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [862 ms]
+
+---
+build.dart --machine --changed=model\person.dart
+
+build.dart finished [816 ms]
+
+---
+build.dart --machine --changed=model\bank_account.dart
+
+build.dart finished [1194 ms]
+
+---
+build.dart --machine --changed=model\bank_terminal.dart
+
+build.dart finished [897 ms]
+
+---
+build.dart --machine --changed=model\bank_terminal.dart
+
+build.dart finished [762 ms]
+
+---
+build.dart --machine --changed=web\bank_terminal_s5_pol.css
+
+build.dart finished [729 ms]
+
+---
+build.dart --machine --changed=web\bank_app.css --removed=web\bank_terminal_s5_pol.css
+
+build.dart finished [744 ms]
+
+---
+build.dart --machine --changed=web\bank_terminal_s5_pol.dart
+
+build.dart finished [786 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart --removed=web\bank_terminal_s5_pol.dart
+
+build.dart finished [910 ms]
+
+---
+build.dart --machine --changed=web\bank_app.html
+
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=web\bank_app.html
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [817 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [789 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [831 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [797 ms]
+
+---
+build.dart --machine --changed=model\bank_terminal.dart
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [817 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [788 ms]
+
+---
+build.dart --machine --full
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [806 ms]
+
+---
+build.dart --machine --changed=model\bank_terminal.dart
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [822 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [852 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+[{"method":"error","params":{"file":"web/bank_app.html","message":"couldn't find imported asset \"web/bankaccountform.html\" in package \"bank_terminal\".","line":8,"charStart":154,"charEnd":201}}]
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":365,"charEnd":393}}]
+build.dart finished [779 ms]
+
+---
+build.dart --machine --changed=web\bank_app.html
+[{"method":"warning","params":{"file":"web/bank_app.html","message":"definition for Polymer element with tag name \"bank-account-form\" not found.","line":15,"charStart":367,"charEnd":395}}]
+build.dart finished [767 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html --changed=web\bank_app.dart
+
+build.dart finished [816 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [768 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+
+build.dart finished [925 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [760 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [871 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [869 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [804 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [825 ms]
+
+---
+build.dart --machine --changed=model\person.dart
+
+build.dart finished [821 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart --changed=lib\bank_terminal.dart --changed=lib\person.dart...
+
+build.dart finished [902 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1271 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+
+build.dart finished [844 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+
+build.dart finished [831 ms]
+
+---
+build.dart --machine --changed=web\bank_app.html
+
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=web\bank_app.html
+
+build.dart finished [819 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [852 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [844 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [795 ms]
+
+---
+build.dart --machine --changed=web\bank_app.html
+
+build.dart finished [836 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [798 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [816 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [894 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [862 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [812 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [829 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [815 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [870 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [825 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [830 ms]
+
+---
+build.dart --machine --changed=lib\person.dart
+
+build.dart finished [827 ms]
+
+---
+build.dart --machine --changed=lib\person.dart
+
+build.dart finished [828 ms]
+
+---
+build.dart --machine --changed=lib\person.dart
+
+build.dart finished [874 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart
+
+build.dart finished [824 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart
+
+build.dart finished [834 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart
+
+build.dart finished [823 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart
+
+build.dart finished [808 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+
+build.dart finished [797 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+
+build.dart finished [842 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+
+build.dart finished [846 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+
+build.dart finished [778 ms]
+
+---
+build.dart --machine --changed=web\bank_app.dart
+
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [797 ms]
+
+---
+build.dart --machine --changed=lib\bank_terminal.dart
+
+build.dart finished [825 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [772 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [780 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart
+
+build.dart finished [846 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart
+
+build.dart finished [822 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart
+
+build.dart finished [850 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart
+
+build.dart finished [813 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [814 ms]
+
+---
+build.dart --machine --changed=lib\bank_account.dart
+
+build.dart finished [818 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [806 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [842 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [850 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [1005 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [823 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [890 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.html
+
+build.dart finished [834 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [844 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [831 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [923 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [855 ms]
+
+---
+build.dart --machine --changed=web\bank_account_form.dart
+
+build.dart finished [893 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1339 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1173 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1155 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1131 ms]
+
