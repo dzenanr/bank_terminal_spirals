@@ -16,9 +16,12 @@ class BankAccountForm extends PolymerElement {
   */
 
   deposit(Event e, var detail, Node target) {
+    print('deposit');
     if (!checkAmount(e)) return;
+    print('amount: $amount');
     if (amount >= 0) bac.deposit(amount);
     else bac.withdraw(amount);
+    print('balance: ${bac.balance}}');
   }
 
   checkAmount(e) {
