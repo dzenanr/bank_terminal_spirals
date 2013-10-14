@@ -23,6 +23,7 @@ class BankAccountForm extends PolymerElement {
     if (amount >= 0) bac.deposit(amount);
     else bac.withdraw(amount);
     print('balance: ${bac.balance}}');
+    shadowRoot.query("#balance").innerHtml = bac.balance.toString();
     disableRefresh(e);
   }
 
