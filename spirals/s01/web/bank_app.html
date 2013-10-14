@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Bank App</title>
-    <link rel="stylesheet" href="bank_app.css">
-    <link rel="import" href="bank_account_form.html">
-    <script src="packages/polymer/boot.js"></script>
-  </head>
-  <body>
-    <h1>Bank account</h1>
-    <div>
-      <template id="tmpl" bind>
-        <bank-account-form bac={{}}></bank-account-form>
-      </template>
-    </div>
-    <script type="application/dart" src="bank_app.dart"></script>
-  </body>
-</html>
+<polymer-element name="bank-app">
+  <link rel="import" href="bank_account.html">
+  <template>
+    <bank-account bac="{{bac}}"></bank-account>
+  </template>
+  <script type="application/dart" src="bank_app.dart"></script>
+</polymer-element>

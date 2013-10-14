@@ -4,9 +4,8 @@ class BankAccount {
   String _number;
   Person owner;
   double _balance;
-  //static const double INTEREST = 5.0;
 
-  @observable String get number => _number;
+  String get number => _number;
   set number(value) {
     if (value == null || value.isEmpty) return;
     // test the format:
@@ -14,23 +13,17 @@ class BankAccount {
     if (exp.hasMatch(value)) _number = value;
   }
 
-  @observable double get balance => _balance;
+  double get balance => _balance;
   set balance(value) {
     if (value >= 0) _balance = value;
   }
-  
-  //onPropertyChange(this, #backingObservable, () => notifyProperty(this, #obserableGetter)); 
 
   BankAccount(this.owner, number, balance) {
     this.number = number;
     this.balance = balance;
   }
 
-  deposit(double amount) {
-    balance += amount;
-  }
-
-  withdraw(double amount) {
+  transact(double amount) {
     balance += amount;
   }
 
