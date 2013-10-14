@@ -8,7 +8,7 @@ class BankAccount extends PolymerElement {
   double amount = 0.0;
   
   inserted() {
-    super.created();
+    super.inserted();
     balance = bac.balance;
   }
 
