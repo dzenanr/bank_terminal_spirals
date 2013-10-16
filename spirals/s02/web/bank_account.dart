@@ -7,14 +7,24 @@ class BankAccount extends PolymerElement {
   @published double balance;
   double amount = 0.0;
 
+  /*
+  created() {
+    super.created();
+    // the following does not update balance
+    new PathObserver(bac, "balance").changes.listen((e) => balance = bac.balance);
+  }
+  */
+
   inserted() {
     super.inserted();
     balance = bac.balance;
   }
 
-//  bacChanged(oldValue) {
-//    balance = bac.balance;
-//  }
+  /*
+  bacChanged(oldValue) {
+    balance = bac.balance;
+  }
+  */
 
   transact(Event e, var detail, Node target) {
     InputElement amountInput = shadowRoot.query("#amount");
