@@ -1,0 +1,28 @@
+<polymer-element name="bank-account">
+  <template>
+    <table on-keypress="enter">
+       <tr>
+         <td>Number</td>
+         <td>{{bac.number}}</td>
+       </tr>
+       <tr>
+         <td>Owner</td>
+         <td>{{bac.owner.name}}</td>
+       </tr>
+       <tr>
+         <td>Balance</td>
+         <td>{{balance}}</td>
+        </tr>
+       <tr>
+         <td>Amount</td>
+         <td><input id="amount" type="text"/></td>
+       </tr>
+       <tr>
+         <td>
+           <button on-click="transact">Transaction</button>
+         </td>
+      </tr>
+    </table>
+  </template>
+  <script type="application/dart" src="bank_account.dart"></script>
+</polymer-element>
